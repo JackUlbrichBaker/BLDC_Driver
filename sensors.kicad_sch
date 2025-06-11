@@ -1811,7 +1811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 113.03 33.02 0)
 			(effects
 				(font
@@ -1949,7 +1949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 90.17 27.94 0)
 			(effects
 				(font
@@ -2089,7 +2089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 101.6 30.48 0)
 			(effects
 				(font
@@ -2907,7 +2907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 31.75 36.83 0)
 			(effects
 				(font

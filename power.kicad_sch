@@ -2649,7 +2649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 100.33 72.39 0)
 			(effects
 				(font
@@ -2801,7 +2801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-4020"
 			(at 69.85 72.39 0)
 			(effects
 				(font
@@ -3139,7 +3139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x4.5"
 			(at 39.0652 30.48 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 66.04 33.02 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x4.5"
 			(at 25.0952 30.48 0)
 			(effects
 				(font
@@ -4468,7 +4468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x4.5"
 			(at 53.0352 30.48 0)
 			(effects
 				(font
