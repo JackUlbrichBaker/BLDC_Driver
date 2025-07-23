@@ -5,108 +5,6 @@
 	(uuid "11cb7c71-7534-4b78-a1ba-36232b7540ee")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -629,14 +527,6 @@
 		(color 0 0 0 0)
 		(uuid "e7df121a-ee65-42d6-9db6-869a571bd61a")
 	)
-	(no_connect
-		(at 111.76 34.29)
-		(uuid "579d6cfe-aab7-4eae-a844-76f2c2bb2800")
-	)
-	(no_connect
-		(at 111.76 31.75)
-		(uuid "f77d6153-1cf9-4ec6-8cf4-1338be809465")
-	)
 	(wire
 		(pts
 			(xy 163.83 107.95) (xy 163.83 82.55)
@@ -1109,18 +999,6 @@
 		)
 		(uuid "6307f13c-400c-4342-9c63-fe386a608452")
 	)
-	(hierarchical_label "DAC2"
-		(shape input)
-		(at 111.76 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "820f05f9-7025-4a61-ad97-79a4a9c84327")
-	)
 	(hierarchical_label "OPP3"
 		(shape input)
 		(at 234.95 71.12 0)
@@ -1204,18 +1082,6 @@
 			(justify left)
 		)
 		(uuid "dab85d3a-138a-4e49-8bdb-fb4aa3cded28")
-	)
-	(hierarchical_label "DAC1"
-		(shape input)
-		(at 111.76 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e07698fc-473a-457d-93f4-47b179e50b4e")
 	)
 	(hierarchical_label "OPN3"
 		(shape input)
@@ -1658,140 +1524,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 251.46 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21d03b3a-b12c-46ae-bae1-46a74481ee7e")
-		(property "Reference" "TP3"
-			(at 256.54 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 256.54 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 251.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 251.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7c76c7c-c642-4b24-a1b3-bd6281933770")
-		)
-		(instances
-			(project "BLDC_Driver"
-				(path "/fc100006-8b1d-4717-be06-f454a97b2692/cb508a13-c1a2-4370-a41e-ec68c27580a8"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 163.83 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4326e8ae-1856-4c47-a605-aa1ef03e300a")
-		(property "Reference" "TP2"
-			(at 168.91 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 168.91 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 163.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61b86ddc-5744-400b-b5cf-7cd0adc62d3e")
-		)
-		(instances
-			(project "BLDC_Driver"
-				(path "/fc100006-8b1d-4717-be06-f454a97b2692/cb508a13-c1a2-4370-a41e-ec68c27580a8"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 220.98 78.74 0)
 		(unit 1)
@@ -2190,73 +1922,6 @@
 			(project "BLDC_Driver"
 				(path "/fc100006-8b1d-4717-be06-f454a97b2692/cb508a13-c1a2-4370-a41e-ec68c27580a8"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "912dafb6-dce1-456a-9e79-414f209a7828")
-		(property "Reference" "TP1"
-			(at 81.28 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 81.28 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 76.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b878bf8-3954-433c-90db-1bb066c81dcb")
-		)
-		(instances
-			(project "BLDC_Driver"
-				(path "/fc100006-8b1d-4717-be06-f454a97b2692/cb508a13-c1a2-4370-a41e-ec68c27580a8"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
